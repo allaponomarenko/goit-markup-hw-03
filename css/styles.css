@@ -4,6 +4,20 @@ body {
     color: #434455;
     background-color: #FFFFFF;
   }
+
+  h1, p {
+    margin: 0;
+  }
+
+  ul, ol {
+    margin: 0;
+    padding-left: 0;
+  }
+
+  img {
+    display: block;
+  }
+  
   
   a {
       text-decoration: none;
