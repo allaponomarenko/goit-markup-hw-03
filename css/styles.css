@@ -12,15 +12,19 @@ body {
     background-color: #FFFFFF;
   }
 
-  /**!----------------------------------------------------------
-  .container { 
-    max-width: 1440px; 
-    padding-left: 120px;  
-    padding-right: 64px;  
-    margin-left: 767px; 
-    margin-right:  
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0;
+  }
+
+  
+   container { 
+    max-width: 1158px; 
+    padding: 0 15px;  
+    margin: 0 auto;
     }
-/**!-----------------------------------------------------
+
 
   h1, p {
     margin: 0;
@@ -31,6 +35,11 @@ body {
     padding-left: 0;
   }
 
+  ul {
+    list-style: none;
+  }
+    
+
   img {
     display: block;
     max-width: 100%;
@@ -40,16 +49,31 @@ body {
   a {
       text-decoration: none;
     }
-  
-    ul {
-      list-style: none;
-    }
 
    
     
     /*header*/
+
+    .nav-container {
+      display: flex;
+      width: 1440px;
+      height: 72px;
+      flex-shrink: 0;
+      border-bottom: 1px  #E7E9FC;
+    }
+
+     ul ol .head-container {
+      display: flex;
+    }
+
+    
+
+  .head-container {
+    justify-content: space-between;
+  }
   
     .logo {
+      display: flex;
       color: #4D5AE5;
       font-family: Raleway;
       font-size: 18px;
@@ -57,8 +81,17 @@ body {
       font-weight: 700;
       letter-spacing: 0.03em;
       text-transform: uppercase;
-      line-height: 1.17;
+      line-height: 1.17; 
+      margin: 24px 156px 24px 40px;
     }
+
+    .contacts-hed {
+      margin: 24px 832px 24px 347px;
+      padding: 40px;
+      
+    }
+
+
   
     .logo:hover,
     .logo:focus {
@@ -117,6 +150,7 @@ body {
       letter-spacing: 0.02em;
       font-style: normal;
       color: #404bbf;
+      margin: ;
     }
   
     
@@ -125,7 +159,22 @@ body {
       font-size: 16px;
       line-height: 1.5;
       color:  #434455;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0.32px;
       
+    }
+
+    .link-contacts-item {
+      display: flex;
+    }
+
+    .link-contacts-list {
+      display: flex;
+      margin: 0;
+      list-style: none;
+      border-radius: 4;
+
     }
   
     .link-contacts:hover {
@@ -275,6 +324,9 @@ body {
   }
   
   /*section footer*/
+
+
+  
   
   .logo-footer {
     color: #4D5AE5;
