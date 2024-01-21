@@ -63,26 +63,10 @@ body {
 
     .head-contant {
       display: flex;
-    }
-
-    .comtacts-list {
-      display: flex;
-      gap: 40px;
-    }
-
-    .contacts-addres {
-      padding: 24px 0;
-    }
-
-    .contacts-hed {
-      display: flex;
-      gap: 40px; 
-    }
-
-    .head-contant {
       align-items: center;
     }
 
+    
     .logo {
       color: #4D5AE5;
       font-size: 18px;
@@ -98,6 +82,11 @@ body {
       color: #2e2f42;
     }
 
+    .contacts-hed {
+      display: flex;
+      gap: 40px; 
+    }
+
     .hed-list {
       color: #2e2f42;
       font-weight: 500;
@@ -106,33 +95,52 @@ body {
       padding: 24px 0;
     }
 
-    .hed-list:focus, .hed-list:hover, .hed-list:active {
-      color: #404bbf;
-    }
-
-    .contacts-addres {
-      color: #434455;
-      letter-spacing: 0.02em;
-      line-height: 1.5;
-    }
-
-    .contacts-addres:hover, .contacts-addres:focus {
-      color: #404BBF;
-    }
-
     .contacts {
       font-style: normal;
       margin-left: auto;   
     }
-  
+
+
+    .comtacts-list {
+      display: flex;
+      gap: 40px;
+    }
+
+    
+    .contacts-addres {
+      color: #434455;
+      letter-spacing: 0.02em;
+      line-height: 1.5;
+      padding: 24px 0;
+    }
+    
+
+    .hed-list:focus, .hed-list:hover, .hed-list:active {
+      color: #404bbf;
+    }
+
+
+    .link-contacts:hover, .link-contacts:focus .link-contacts:active {
+      color: #404BBF;
+    }
+
+    
 
     
   
-  /*main*/
+     /*main*/
   
-  /*section 1*/
+
+     /*section 1*/
   
   .main-title {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid;
+    flex-shrink: 0;
+    padding: 1158px;
+
+    
     background-color: #2E2F42;
   }
   
@@ -145,6 +153,8 @@ body {
       letter-spacing: 0.02em;
       background-color: #2e2f42;
       line-height: 1.07;
+      margin: 188px 48px;
+      
   }
   
   .order-service {
@@ -157,12 +167,20 @@ body {
     background-color: #4D5AE5;
     line-height: 1.5;
     font-family: "Roboto", sans-serif; 
-    cursor: pointer
+    cursor: pointer;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin: 0 auto;
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    display: block;
   }
   
   .order-service:hover {
     color: #FFFFFF;
     background-color: #404BBF;
+    
   }
   
   .order-service:focus {
