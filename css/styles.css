@@ -133,14 +133,7 @@ body {
 
      /*section 1*/
   
-  .main-title {
-    display: flex;
-    flex-direction: column;
-    border-bottom: solid;
-    flex-shrink: 0;
-    padding: 1158px;
-
-    
+  .main-title { 
     background-color: #2E2F42;
   }
   
