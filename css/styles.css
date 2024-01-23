@@ -276,21 +276,22 @@ body {
     margin-bottom: 72px;
   }
 
-  .container {
+  .container-img-block {  
+    padding: 32px 16px;
+    gap: 24px;
     
-    flex-wrap: wrap;
    
-    
   }
 
-  .img-block {
-    width: 33.33%;
-    box-sizing: border-box;
-    padding: 16px;
+  .img-block {   
+   padding: 32px 16px;
+   display: inline-block;
+   margin: 24px 48px;
+   justify-content: space-around;
   }
   
   .list-portfolio {
-    
+    padding: 32px 16px;
   }
   
   .our-portfolio {
@@ -299,6 +300,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    padding: 0 16px;
   }
   
   /*section footer*/
