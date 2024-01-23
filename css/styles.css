@@ -187,7 +187,20 @@ body {
   
   /*section 2*/
   
-  
+  .section-strategy {
+    background-color: #FFFFFF;
+    padding: 188px 0;  
+  }
+
+
+  [aria-hidden="true"] {
+    display: none;
+  }
+
+  .strategy-list {
+    display: flex;
+    gap: 24px;
+  }
   
   
   h2 {
@@ -199,6 +212,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     line-height: 1.11;
+    
   }
   
   h3 {
@@ -219,23 +233,24 @@ body {
   }
   
   /*section 3*/
-  
-  .imagines-list {
-    background-color: #FFFFFF;
-    line-height: 1.5;
-  }
-  
-  .galery {
-    background-color: #F4F4FD;
-  }
-  
-  
-  
+
   .our-team {
     background-color: #F4F4FD;
     line-height: 1.11;
   }
+
+  .imagines {
+    background-color: #F4F4FD;
+    display: flex;
+    gap: 24px;
+  }
   
+  .imagines-list {
+    background-color: #F4F4FD;
+    line-height: 1.5;
+  }
+  
+
   .main-tres-p {
     color: #434455;
     font-family: Roboto;
@@ -243,18 +258,36 @@ body {
     letter-spacing: 0.02em;
   }
   
-  .personal {
-  
-  }
-  
-  .imagines {
-    background-color: #FFFFFF;
-  }
-  
+
+
+
   /*section Our Portfolio*/
   
   .title-portfolio {
     line-height: 1.11;
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+  }
+
+  .img-block {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 16px;
   }
   
   .list-portfolio {
