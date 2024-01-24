@@ -192,13 +192,24 @@ body {
   }
 
 
-  [aria-hidden="true"] {
-    display: none;
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
   }
 
   .strategy-list {
     display: flex;
     gap: 24px;
+  }
+
+  .strategy-list-li {
+    width: calc((100% - 72px) / 4);
   }
   
   
@@ -221,6 +232,7 @@ body {
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    margin-bottom: 8px;
   }
   
   .main-p {
@@ -229,6 +241,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+
   }
   
   /*section 3*/
@@ -317,6 +330,7 @@ body {
     text-transform: uppercase;
     line-height: 1.17;
     margin-bottom: 16px;
+    display: inline-block;
   }
   
   .logo-footer-studio {
