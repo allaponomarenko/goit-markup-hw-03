@@ -201,6 +201,8 @@ body {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
   }
 
   .strategy-list {
@@ -305,7 +307,6 @@ body {
     letter-spacing: 0.02;
     text-transform: capitalize;
     margin-bottom: 72px;
-    margin-bottom: 8px;
   }
 
   .container-img-block{
@@ -316,15 +317,22 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
+    width: calc((100% - 48px) / 3);
   }
 
 
-  .img-block {   
-    width: calc((100% - 48px) / 3);
+  
+
+
+  .info-block {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
   }
   
   .list-portfolio {
-    padding: 32px 16px;
+   
+    margin-bottom: 8px;
   }
   
   .our-portfolio {
