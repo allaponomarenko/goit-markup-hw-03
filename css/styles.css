@@ -303,8 +303,9 @@ body {
   /*section footer*/
 
 
-  .foot-content {
+  .foot-contant {
     background-color: #2E2F42; 
+    padding: 100px 0;
   }
   
   .logo-footer {
@@ -316,11 +317,10 @@ body {
     text-transform: uppercase;
     line-height: 1.17;
     margin-bottom: 16px;
-    
   }
   
   .logo-footer-studio {
-    color: #f4f4fd;
+    color: #f4f4fd; 
   }
   
   .footer-p {
@@ -332,7 +332,7 @@ body {
     width: 264px;
     height: 72px;
     top: 3128px;
-    left: 156px; 
+    left: 156px;
   }
   
   
