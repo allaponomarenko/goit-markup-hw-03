@@ -261,7 +261,7 @@ body {
   }
   
   .imagines-list {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
     line-height: 1.5;
     border-radius: 0px 0px 4px 4px; 
 
@@ -327,6 +327,7 @@ body {
     border: 1px solid #e7e9fc;
     border-top: none;
   }
+
   
   .list-portfolio {
    
@@ -339,8 +340,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    padding: 0 16px;
-  }
+    }
   
   /*section footer*/
 
